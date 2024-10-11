@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="themeGrey0">#FFFFFF</color>
+    <color name="themeGrey50">#FFFFFF</color>
+    <color name="themeGrey100">#F5F5F5</color>
+    <color name="themeGrey150">#F5F5F5</color>
+    <color name="themeGrey250">#EAEAEA</color>
+    <color name="themeGrey400">#B7B7B7</color>
+    <color name="themeGrey700">#6F6F6F</color>
+    <color name="themeGrey1000">#0A0A0B</color>
+
+    <color name="themeRed100">#D6261E</color>
+    <color name="themeRed300">#FFDBD6</color>
+    <color name="themeRed100Transparent50">#50D6261E</color>
+
+    <color name="themeGreen100">#008148</color>
+
+    <color name="themeBlue100">#2B5EE3</color>
+    <color name="themeBlue400">#2B61EC</color>
+
+    <color name="themeDarkInverseTransparent8">#080A0A0B</color>
+    <color name="themeDarkInverseTransparent30">#300A0A0B</color>
+    <color name="themeDarkInverseTransparent50">#500A0A0B</color>
+
+    <color name="backgroundShimmerAlpha08">#080A0A0B</color>
+    <color name="backgroundShimmer">#E8E8E8</color>
+    <color name="backgroundClear">#00000000</color>
+
+    <color name="shimmerHighlight">#7AFFFFFF</color>
+</resources>

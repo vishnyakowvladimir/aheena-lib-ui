@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="paletteTextPrimary">@color/themeGrey1000</color>
+    <color name="paletteTextSecondary">@color/themeGrey700</color>
+    <color name="paletteTextAccent">@color/themeBlue100</color>
+    <color name="paletteTextError">@color/themeGrey150</color>
+    <color name="paletteTextStaticWhite">@color/themeGrey0</color>
+    <color name="paletteTextStaticWhiteDisable">@color/themeGrey400</color>
+
+    <color name="paletteBackgroundPrimary">@color/themeGrey50</color>
+    <color name="paletteBackgroundPrimaryGrey">@color/themeGrey100</color>
+    <color name="paletteBackgroundTransparent8">@color/themeDarkInverseTransparent8</color>
+    <color name="paletteBackgroundTransparent30">@color/themeDarkInverseTransparent30</color>
+    <color name="paletteBackgroundTransparent50">@color/themeDarkInverseTransparent50</color>
+    <color name="paletteBackgroundAccent">@color/themeBlue400</color>
+    <color name="paletteBackgroundAccentDisable">@color/themeGrey250</color>
+
+    <color name="paletteIconsPrimary">@color/themeGrey1000</color>
+    <color name="paletteIconsSecondary">@color/themeGrey700</color>
+    <color name="paletteIconsStaticWhite">@color/themeGrey0</color>
+
+    <color name="paletteElementsPrimary">@color/themeGrey1000</color>
+    <color name="paletteElementsAccent">@color/themeBlue100</color>
+    <color name="paletteElementsSuccess">@color/themeGreen100</color>
+    <color name="paletteElementsError">@color/themeRed100</color>
+    <color name="paletteElementsErrorTransparent50">@color/themeRed100Transparent50</color>
+</resources>
