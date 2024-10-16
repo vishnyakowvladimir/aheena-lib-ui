@@ -4,5 +4,5 @@ applyAndroidConfiguration(this, "com.example.lib_ui")
 applyCompose(this, KotlinCompile)
 
 dependencies {
-    implementation anndroidXAppCompat
+    implementation androidXAppCompat
 }
