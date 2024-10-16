@@ -5,6 +5,4 @@ applyCompose(this, KotlinCompile)
 
 dependencies {
     implementation anndroidXAppCompat
-    implementation coil
-    implementation kotlinX
 }
