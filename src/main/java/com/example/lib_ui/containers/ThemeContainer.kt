@@ -9,7 +9,7 @@ import com.example.lib_ui.theme.AppThemeMode
 import com.example.lib_ui.theme.typography.ViewScale
 
 @Composable
-fun MainContainer(
+fun ThemeContainer(
     activity: AppCompatActivity,
     viewScale: ViewScale,
     themeMode: AppThemeMode,
