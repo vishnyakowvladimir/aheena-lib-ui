@@ -11,15 +11,15 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.unit.dp
 import com.example.lib_ui.theme.local_composition.LocalIndicationRippleBounded
-import com.example.lib_ui.theme.palette.LocalPalette
 import com.example.lib_ui.theme.palette.AppPalette
+import com.example.lib_ui.theme.palette.LocalPalette
 import com.example.lib_ui.theme.palette.getPalette
 import com.example.lib_ui.theme.typography.AppTypography
 import com.example.lib_ui.theme.typography.LocalTypography
 import com.example.lib_ui.theme.typography.ViewScale
 
 @Composable
-internal fun AppThemeContainer(
+fun AppThemeContainer(
     viewScale: ViewScale,
     darkTheme: Boolean = isSystemInDarkTheme(),
     palette: AppPalette = getPalette(),
