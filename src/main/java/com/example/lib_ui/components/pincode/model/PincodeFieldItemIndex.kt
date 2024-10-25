@@ -27,4 +27,17 @@ enum class PinCodeFieldItemIndex(val index: Int) {
             THREE -> TWO
         }
     }
+
+    companion object {
+        fun getPinCodeFieldItemIndex(index: Int): PinCodeFieldItemIndex {
+            return when (index) {
+                NONE.index -> NONE
+                ZERO.index -> ZERO
+                ONE.index -> ONE
+                TWO.index -> TWO
+                THREE.index -> THREE
+                else -> NONE
+            }
+        }
+    }
 }
