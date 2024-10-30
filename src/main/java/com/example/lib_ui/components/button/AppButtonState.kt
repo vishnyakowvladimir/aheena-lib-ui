@@ -10,7 +10,7 @@ data class AppButtonState(
     val isEnabled: Boolean = true,
     val isLoading: Boolean = false,
     val isShimmer: Boolean = false,
-    private val color: ButtonColor = ButtonColor.PRIMARY,
+    val color: ButtonColor = ButtonColor.PRIMARY,
 ) {
 
     @Composable
