@@ -30,6 +30,7 @@ import com.example.lib_ui.theme.AppTheme
 @Composable
 fun PinKeyboard(
     modifier: Modifier = Modifier,
+    withBiometrics: Boolean = false,
     onClick: (PinKey) -> Unit,
 ) {
 
@@ -66,7 +67,7 @@ fun PinKeyboard(
     val keys4 by remember {
         mutableStateOf(
             listOf(
-                PinKey.EMPTY,
+                if (withBiometrics) PinKey.BIOMETRICS else PinKey.EMPTY,
                 PinKey.ZERO,
                 PinKey.DELETE,
             )

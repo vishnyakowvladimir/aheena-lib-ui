@@ -14,6 +14,7 @@ enum class PinKey(val type: PinKeyType) {
     EIGHT(PinKeyType.Digit(8)),
     NINE(PinKeyType.Digit(9)),
     DELETE(PinKeyType.Icon(R.drawable.ic_40dp_keyboard_icons_delete)),
+    BIOMETRICS(PinKeyType.Icon(R.drawable.ic_40dp_keyboard_icons_fingerprint)),
     EMPTY(PinKeyType.Empty),
     ;
 }
